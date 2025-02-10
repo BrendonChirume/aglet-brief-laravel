@@ -11,6 +11,9 @@ export default {
 
     theme: {
         extend: {
+            backgroundImage: {
+                'home-hero': "url('/images/hero.jpg')",
+            },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
